@@ -1,0 +1,233 @@
+(150, 5)
+
+     sepal_length_cm        ...          iris_flower_class
+0                5.1        ...                Iris-setosa
+1                4.9        ...                Iris-setosa
+2                4.7        ...                Iris-setosa
+3                4.6        ...                Iris-setosa
+4                5.0        ...                Iris-setosa
+5                5.4        ...                Iris-setosa
+6                4.6        ...                Iris-setosa
+7                5.0        ...                Iris-setosa
+8                4.4        ...                Iris-setosa
+9                4.9        ...                Iris-setosa
+10               5.4        ...                Iris-setosa
+11               4.8        ...                Iris-setosa
+12               4.8        ...                Iris-setosa
+13               4.3        ...                Iris-setosa
+14               5.8        ...                Iris-setosa
+15               5.7        ...                Iris-setosa
+16               5.4        ...                Iris-setosa
+17               5.1        ...                Iris-setosa
+18               5.7        ...                Iris-setosa
+19               5.1        ...                Iris-setosa
+20               5.4        ...                Iris-setosa
+21               5.1        ...                Iris-setosa
+22               4.6        ...                Iris-setosa
+23               5.1        ...                Iris-setosa
+24               4.8        ...                Iris-setosa
+25               5.0        ...                Iris-setosa
+26               5.0        ...                Iris-setosa
+27               5.2        ...                Iris-setosa
+28               5.2        ...                Iris-setosa
+29               4.7        ...                Iris-setosa
+..               ...        ...                        ...
+120              6.9        ...             Iris-virginica
+121              5.6        ...             Iris-virginica
+122              7.7        ...             Iris-virginica
+123              6.3        ...             Iris-virginica
+124              6.7        ...             Iris-virginica
+125              7.2        ...             Iris-virginica
+126              6.2        ...             Iris-virginica
+127              6.1        ...             Iris-virginica
+128              6.4        ...             Iris-virginica
+129              7.2        ...             Iris-virginica
+130              7.4        ...             Iris-virginica
+131              7.9        ...             Iris-virginica
+132              6.4        ...             Iris-virginica
+133              6.3        ...             Iris-virginica
+134              6.1        ...             Iris-virginica
+135              7.7        ...             Iris-virginica
+136              6.3        ...             Iris-virginica
+137              6.4        ...             Iris-virginica
+138              6.0        ...             Iris-virginica
+139              6.9        ...             Iris-virginica
+140              6.7        ...             Iris-virginica
+141              6.9        ...             Iris-virginica
+142              5.8        ...             Iris-virginica
+143              6.8        ...             Iris-virginica
+144              6.7        ...             Iris-virginica
+145              6.7        ...             Iris-virginica
+146              6.3        ...             Iris-virginica
+147              6.5        ...             Iris-virginica
+148              6.2        ...             Iris-virginica
+149              5.9        ...             Iris-virginica
+
+[150 rows x 5 columns]
+
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+
+------- Dataset Statistics--------
+
+sepal_length_cm      float64
+sepal_width_cm       float64
+petal_length_cm      float64
+petal_width_cm       float64
+iris_flower_class     object
+
+dtype: object
+
+(150, 5)
+
+<bound method NDFrame.describe of      sepal_length_cm        ...          iris_flower_class
+0                5.1        ...                Iris-setosa
+1                4.9        ...                Iris-setosa
+2                4.7        ...                Iris-setosa
+3                4.6        ...                Iris-setosa
+4                5.0        ...                Iris-setosa
+5                5.4        ...                Iris-setosa
+6                4.6        ...                Iris-setosa
+7                5.0        ...                Iris-setosa
+8                4.4        ...                Iris-setosa
+9                4.9        ...                Iris-setosa
+10               5.4        ...                Iris-setosa
+11               4.8        ...                Iris-setosa
+12               4.8        ...                Iris-setosa
+13               4.3        ...                Iris-setosa
+14               5.8        ...                Iris-setosa
+15               5.7        ...                Iris-setosa
+16               5.4        ...                Iris-setosa
+17               5.1        ...                Iris-setosa
+18               5.7        ...                Iris-setosa
+19               5.1        ...                Iris-setosa
+20               5.4        ...                Iris-setosa
+21               5.1        ...                Iris-setosa
+22               4.6        ...                Iris-setosa
+23               5.1        ...                Iris-setosa
+24               4.8        ...                Iris-setosa
+25               5.0        ...                Iris-setosa
+26               5.0        ...                Iris-setosa
+27               5.2        ...                Iris-setosa
+28               5.2        ...                Iris-setosa
+29               4.7        ...                Iris-setosa
+..               ...        ...                        ...
+120              6.9        ...             Iris-virginica
+121              5.6        ...             Iris-virginica
+122              7.7        ...             Iris-virginica
+123              6.3        ...             Iris-virginica
+124              6.7        ...             Iris-virginica
+125              7.2        ...             Iris-virginica
+126              6.2        ...             Iris-virginica
+127              6.1        ...             Iris-virginica
+128              6.4        ...             Iris-virginica
+129              7.2        ...             Iris-virginica
+130              7.4        ...             Iris-virginica
+131              7.9        ...             Iris-virginica
+132              6.4        ...             Iris-virginica
+133              6.3        ...             Iris-virginica
+134              6.1        ...             Iris-virginica
+135              7.7        ...             Iris-virginica
+136              6.3        ...             Iris-virginica
+137              6.4        ...             Iris-virginica
+138              6.0        ...             Iris-virginica
+139              6.9        ...             Iris-virginica
+140              6.7        ...             Iris-virginica
+141              6.9        ...             Iris-virginica
+142              5.8        ...             Iris-virginica
+143              6.8        ...             Iris-virginica
+144              6.7        ...             Iris-virginica
+145              6.7        ...             Iris-virginica
+146              6.3        ...             Iris-virginica
+147              6.5        ...             Iris-virginica
+148              6.2        ...             Iris-virginica
+149              5.9        ...             Iris-virginica
+
+[150 rows x 5 columns]>
+
+                 sepal_length_cm  sepal_width_cm
+sepal_length_cm         1.000000       -0.109369
+sepal_width_cm         -0.109369        1.000000
+petal_length_cm         0.871754       -0.420516
+petal_width_cm          0.817954       -0.356544
+
+
+iris_flower_class
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+
+
+dtype: int64
+
+Model name: LR Accuracy :95.23809523809523 (0.05216405309573012)
+Model name: LDA Accuracy :98.0952380952381 (0.03809523809523809)
+Model name: KNN Accuracy :97.14285714285715 (0.0380952380952381)
+Model name: NB Accuracy :96.1904761904762 (0.05553287518900288)
+Model name: CART Accuracy :97.14285714285715 (0.023328473740792194)
+Model name: SVM Accuracy :99.04761904761905 (0.019047619047619067)
+
+
+[array([0.95238095, 1.        , 1.        , 0.85714286, 0.95238095]), array([1.       , 1.       , 1.       , 0.9047619, 1.       ]), array([1.        , 1.        , 1.        , 0.95238095, 0.9047619 ]), array([1.        , 0.95238095, 1.        , 0.85714286, 1.        ]), array([1.        , 0.95238095, 1.        , 0.95238095, 0.95238095]), array([1.        , 1.        , 1.        , 0.95238095, 1.        ])]
+['LR', 'LDA', 'KNN', 'NB', 'CART', 'SVM']
+
+
+-----LDA model validation--------
+
+LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+              solver='svd', store_covariance=False, tol=0.0001)
+
+0.9777777777777777
+
+
+[[12  0  0]
+ [ 0 15  1]
+ [ 0  0 17]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        12
+Iris-versicolor       1.00      0.94      0.97        16
+ Iris-virginica       0.94      1.00      0.97        17
+
+    avg / total       0.98      0.98      0.98        45
+
+
+-----SVM model validation--------
+
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+
+0.9555555555555556
+
+
+[[12  0  0]
+ [ 0 14  2]
+ [ 0  0 17]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        12
+Iris-versicolor       1.00      0.88      0.93        16
+ Iris-virginica       0.89      1.00      0.94        17
+
+    avg / total       0.96      0.96      0.96        45
+
+
+[array([5.4, 3.9, 1.7, 0.4], dtype=object)]
+
+['Iris-setosa']
+['Iris-setosa']
+['Iris-virginica']
+
+
+--------loaded model-------
+
+[array([5.4, 3.9, 1.7, 0.4], dtype=object)]
+['Iris-setosa']
+['Iris-setosa']
+['Iris-virginica']
+
+
+
